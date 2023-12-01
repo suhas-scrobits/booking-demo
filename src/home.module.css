@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.daylyHours {
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.daylyHoursBlock {
+  padding: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.active {
+  background-color: aqua;
+}
